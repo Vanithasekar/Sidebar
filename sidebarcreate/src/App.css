@@ -1,0 +1,11 @@
+.sidebar-allignment {
+  display: flex;       
+  height: 100vh;
+}
+
+.content-allignment {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  padding-left: 400px;
+}
