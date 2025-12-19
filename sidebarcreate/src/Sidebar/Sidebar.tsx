@@ -4,7 +4,7 @@ type Tab = {
     title: string;
     Description: string;
 };
-const TabsLayout = () => {
+const Sidebar = () => {
     const tabs: Tab[] = [
         { id: 1, title: "Home", Description: "Home page content here we can see the overview" },
         { id: 2, title: "Profile", Description: "Profile page content here we can see the profile details" },
@@ -30,6 +30,6 @@ const TabsLayout = () => {
             </div>
         </div>
     );
-};
+}; 
 
-export default TabsLayout;
+export default Sidebar;
